@@ -61,6 +61,11 @@ html {
   gap: 60px;
 }
 
+.preserve-aspect-ratio {
+  color: red;
+  margin-right: auto;
+}
+
 .letter {
   aspect-ratio: 1 / 1;
 }
@@ -138,13 +143,20 @@ html {
 <body>
 <div class="flex-container">
   <div class="options">
+    <a href="#" class="preserve-aspect-ratio">
+      (Preserve Aspect Ratio: OFF)
+    </a>
+    <div>
    Vote Screen Maker 
+    </div>
     <div>
       (Click to remove a character!)
     </div>
+    <div class="screenshot-options">
     <a href="#" class="screenshot">
-      [Screenshot]
+        [📷 Screenshot]
     </a>
+  </div>
   </div>
   <div class="voting">
     <div class="character mikki">
@@ -264,6 +276,7 @@ html {
   </div>
 </div>
 <script>
+  let aspectRatioSetting = false;
   function saveAs(uri, filename) {
     var link = document.createElement('a');
     if (typeof link.download === 'string') {
@@ -317,11 +330,28 @@ html {
     }
   )
 
+  const preserveAspectRatio = document.querySelector(".preserve-aspect-ratio");
+  preserveAspectRatio.addEventListener("click", () => {
+    aspectRatioSetting = !aspectRatioSetting;
+    if (aspectRatioSetting) {
+      preserveAspectRatio.textContent = "(Preserve Aspect Ratio: ON )"
+      preserveAspectRatio.style.color = "lime";
+    } else {
+      preserveAspectRatio.textContent = "(Preserve Aspect Ratio: OFF)"
+      preserveAspectRatio.style.color = "red";
+    }
+  })
+
   const screenshot = document.querySelector(".screenshot");
   screenshot.addEventListener("click", () => {
-    html2canvas(document.querySelector(".voting"), {allowTaint: true, useCORS: true}).then(canvas => {
+    const options = document.querySelector(".options");
+    options.style.display = "none";
+    let canvasOptions = aspectRatioSetting ? {allowTaint: true, useCORS: true} : 
+                                              {allowTaint: true, useCORS: true, windowWidth: 1920, windowHeight: 1080};
+    html2canvas(document.querySelector(".voting"), canvasOptions).then(canvas => {
       saveAs(canvas.toDataURL(), 'voting_screen.png');
     });
+    options.style.display = "flex";
   })
 
   generateLetters();
