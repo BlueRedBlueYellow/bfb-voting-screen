@@ -287,12 +287,26 @@ html {
     for (let i = 0; i < letters.length; i++) {
       letters[i].innerHTML = alphabet[i];
     }
+  function squishNames() {
+    counter = counter += 1;
+    console.log(`${counter}-------------------------------------`);
+    const characterNames = document.querySelectorAll(".name");
+    characterNames.forEach((name) => {
+        name.style.transform = `scale(1)`
+        let characterBoxWidth = name.parentElement.getBoundingClientRect().width;
+        let nameWidth = name.getBoundingClientRect().width;
+        let newTextWidth = getPercentageOf(characterBoxWidth, nameWidth) * 0.9;
+        if (newTextWidth > 2) newTextWidth = 2;
+        name.style.transform = `scale(${newTextWidth}, 1.5)`
+      }
+    )
   }
 
   const characters = document.querySelectorAll(".character");
   characters.forEach((character) => {
     character.addEventListener("click", () => {
       character.remove();
+      squishNames();
       generateLetters();
     })}
   )
@@ -311,6 +325,8 @@ html {
   })
 
   generateLetters();
+  squishNames();
+
 </script>
 </body>
 </html>
