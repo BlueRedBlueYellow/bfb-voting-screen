@@ -294,6 +294,10 @@ html {
       return Math.random() * (max - min) + min;
   }
 
+  function getPercentageOf(newWidth, width) {
+      return newWidth / width;
+  }
+
   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   function generateLetters() {
     let letters = document.querySelectorAll(".letter");
