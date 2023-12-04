@@ -285,8 +285,10 @@ html {
   function generateLetters() {
     let letters = document.querySelectorAll(".letter");
     for (let i = 0; i < letters.length; i++) {
-      letters[i].innerHTML = alphabet[i];
+      letters[i].textContent = `[${alphabet[i]}]`;
     }
+  }
+
   function squishNames() {
     counter = counter += 1;
     console.log(`${counter}-------------------------------------`);
