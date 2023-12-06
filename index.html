@@ -343,22 +343,6 @@ html {
     )
   }
 
-  const characters = document.querySelectorAll(".character");
-  characters.forEach((character) => {
-    character.addEventListener("click", () => {
-      character.remove();
-      squishNames();
-      generateLetters();
-    })}
-  )
-
-
-  const coloredText = document.querySelectorAll(".small, .name");
-  coloredText.forEach((text) => {
-    text.style.opacity = `${getRandomArbitrary(0.5, 0.8)}`; 
-    }
-  )
-
   const preserveAspectRatio = document.querySelector(".preserve-aspect-ratio");
   preserveAspectRatio.addEventListener("click", () => {
     aspectRatioSetting = !aspectRatioSetting;
