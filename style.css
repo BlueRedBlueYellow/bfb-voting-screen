@@ -29,14 +29,15 @@ html {
 .character {
     display: flex;
     flex: 1;
-    align-items: center;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     justify-content: space-between;
     background-position: bottom;
     background-repeat: no-repeat;
-    overflow: hidden;
+    text-align: center;
     font-size: 5vmax;
+    white-space: nowrap; 
+    overflow: hidden;
     background-color: DodgerBlue;
 }
 
@@ -55,9 +56,9 @@ html {
     position: sticky;
     top: 0px;
     z-index: 1;
-    font-family: 'Courier New', Courier, monospace;
     flex: 0 0 30px;
     flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     justify-content: end;
     align-items: center;
@@ -92,14 +93,14 @@ html {
     margin: 1vh;
 }
 
-.joey>.character-image {
+.joey > .character-image {
     height: 25vh;
 }
 
-.tye>.character-image {
+.tye > .character-image {
     height: 45vh;
 }
 
-.brady>.character-image {
+.brady > .character-image {
     height: 40vh;
 }

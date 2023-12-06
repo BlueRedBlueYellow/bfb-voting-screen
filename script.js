@@ -104,7 +104,7 @@ const characters = {
         "image": "https://media.discordapp.net/attachments/929525276415770684/1181506820167184455/1000.png?ex=65814ef9&is=656ed9f9&hm=54a93ff75492217c1faf37ada73377121f05e355c25aefa3c2b300169b926194&=&format=webp&quality=lossless&width=911&height=593",
         "color": "#fe2336"
     },
-}
+};
 
 const voting = document.querySelector(".voting");
 const characterTemplate = document.querySelector(".character");
@@ -131,8 +131,6 @@ for (character in characters) {
 };
 
 characterTemplate.remove();
-
-let aspectRatioSetting = false;
 
 function saveAs(uri, filename) {
     var link = document.createElement('a');
@@ -189,9 +187,8 @@ function isDark(hex) {
     return contrastRatio < 0.5;
 }
 
-const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
 function generateLetters() {
+    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let letters = document.querySelectorAll(".letter");
     for (let i = 0; i < letters.length; i++) {
         letters[i].textContent = `[${alphabet[i]}]`;
@@ -210,7 +207,7 @@ characterBoxes.forEach((character) => {
 function evenlyDistributeBoxes(characters) {
     const rows = 2;
     minCharacterBoxWidth = (characters.length > 8) ? `${(100 / (characters.length / rows)) * 0.90}vw` :
-        "";
+                                                     "";
     characters.forEach((character) => {
         character.style.minWidth = minCharacterBoxWidth;
     });
@@ -219,12 +216,12 @@ function evenlyDistributeBoxes(characters) {
 function squishNames() {
     const characterNames = document.querySelectorAll(".name");
     characterNames.forEach((name) => {
-        name.style.transform = `scale(1)`
+        name.style.transform = `scale(1)`;
         let characterBoxWidth = name.parentElement.parentElement.getBoundingClientRect().width;
         let nameWidth = name.getBoundingClientRect().width;
         let newTextWidth = getPercentageOf(characterBoxWidth, nameWidth) * 0.9;
         if (newTextWidth > 2) newTextWidth = 2;
-        name.style.transform = `scale(${newTextWidth}, 1.5)`
+        name.style.transform = `scale(${newTextWidth}, 1.5)`;
     })
 }
 
@@ -261,9 +258,9 @@ screenshot.addEventListener("click", () => {
 })
 
 function updateCharacters() {
-generateLetters();
-evenlyDistributeBoxes(characterBoxes);
-squishNames();
+    generateLetters();
+    evenlyDistributeBoxes(characterBoxes);
+    squishNames();
 }
 
 updateCharacters();
