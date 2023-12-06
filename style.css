@@ -94,11 +94,19 @@ html {
 }
 
 .joey > .character-image {
-    height: 25vh;
+    height: 30vh;
+}
+
+.keaton > .character-image {
+    height: 45vh;
 }
 
 .tye > .character-image {
     height: 45vh;
+}
+
+.jacob > .character-image {
+    height: 40vh;
 }
 
 .brady > .character-image {
