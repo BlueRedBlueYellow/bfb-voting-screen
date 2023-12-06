@@ -121,11 +121,12 @@ for (character in characters) {
 
     newCharacterTemplate.style.backgroundColor = newCharacterColor;
     newCharacterTemplate.style.backgroundImage = `url('./backgrounds/${getRandomInt(0, 5)}.png')`;
-    newCharacterTemplate.style.backgroundSize = "cover;"
+    newCharacterTemplate.style.backgroundSize = "cover;";
     newCharacterText.querySelector(".name").textContent = character.toUpperCase();
     newCharacterText.querySelectorAll(".name, .small").forEach((text) => {
+        let randomBrightness = getRandomArbitrary(-40, -70);
         text.style.color = isDark(newCharacterColor) ? changeBrightness(newCharacterColor, 80) :
-            changeBrightness(newCharacterColor, getRandomArbitrary(-40, -70));
+                                                       changeBrightness(newCharacterColor, randomBrightness);
     });
 };
 
@@ -227,15 +228,16 @@ function squishNames() {
     })
 }
 
-const preserveAspectRatio = document.querySelector(".preserve-window-size");
-preserveAspectRatio.addEventListener("click", () => {
-    aspectRatioSetting = !aspectRatioSetting;
-    if (aspectRatioSetting) {
-        preserveAspectRatio.textContent = "(Preserve Window Size: ON )"
-        preserveAspectRatio.style.color = "lime";
+let windowSizeSettings = false;
+const preserveWindowSize = document.querySelector(".preserve-window-size");
+preserveWindowSize.addEventListener("click", () => {
+    windowSizeSettings = !windowSizeSettings;
+    if (windowSizeSettings) {
+        preserveWindowSize.textContent = "(Preserve Window Size: ON )";
+        preserveWindowSize.style.color = "lime";
     } else {
-        preserveAspectRatio.textContent = "(Preserve Window Size: OFF)"
-        preserveAspectRatio.style.color = "red";
+        preserveWindowSize.textContent = "(Preserve Window Size: OFF)";
+        preserveWindowSize.style.color = "red";
     }
 })
 
@@ -243,7 +245,7 @@ const screenshot = document.querySelector(".screenshot");
 screenshot.addEventListener("click", () => {
     const options = document.querySelector(".options");
     options.style.display = "none";
-    let canvasOptions = aspectRatioSetting ? {
+    let canvasOptions = windowSizeSettings ? {
         allowTaint: true,
         useCORS: true
     } : {
