@@ -292,6 +292,33 @@ html {
       return newWidth / width;
   }
 
+  function changeBrightness(color, percent) {
+    var ctx = document.createElement('canvas').getContext('2d');
+
+    ctx.fillStyle = color;
+    ctx.fillRect(0,0,1,1);
+
+    var color = ctx.getImageData(0,0,1,1);
+    var r = color.data[0] + Math.floor( percent / 100 * 255 );
+    var g = color.data[1] + Math.floor( percent / 100 * 255 );
+    var b = color.data[2] + Math.floor( percent / 100 * 255 );
+
+    return 'rgb('+r+','+g+','+b+')';
+  }
+
+  function isDark(hex) {
+    if (!/^#[0-9A-F]{6}$/i.test(hex)) return;
+    const hexCode = hex.charAt(0) === '#' 
+                        ? hex.substr(1, 6)
+                        : hex;
+
+    const hexR = parseInt(hexCode.substr(0, 2), 16);
+    const hexG = parseInt(hexCode.substr(2, 2), 16);
+    const hexB = parseInt(hexCode.substr(4, 2), 16);
+
+    const contrastRatio = (hexR + hexG + hexB) / (255 * 3);
+    return contrastRatio < 0.5;
+  }
   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   function generateLetters() {
     let letters = document.querySelectorAll(".letter");
