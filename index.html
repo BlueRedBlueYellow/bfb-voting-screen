@@ -26,6 +26,8 @@ html {
 .voting {
   display: flex;
   flex: 1;
+  justify-content: space-around;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
@@ -327,6 +329,26 @@ html {
     }
   }
 
+  let characterBoxes = document.querySelectorAll(".character");
+  characterBoxes.forEach((character) => {
+    character.addEventListener("click", () => {
+      character.remove();
+      characterBoxes = document.querySelectorAll(".character");
+      generateLetters();
+      evenlyDistributeBoxes(characterBoxes);
+      squishNames();
+    })}
+  )
+
+  function evenlyDistributeBoxes(characters) {
+    const rows = 2;
+    minCharacterBoxWidth = (characters.length > 8) ? `${(100 / (characters.length / rows)) * 0.90}vw` :
+                           "";
+    characters.forEach((character) => {
+        character.style.minWidth = minCharacterBoxWidth;
+    });
+  }
+
   function squishNames() {
     const characterNames = document.querySelectorAll(".name");
     characterNames.forEach((name) => {
@@ -381,8 +403,8 @@ html {
   })
 
   generateLetters();
+  evenlyDistributeBoxes(characterBoxes);
   squishNames();
-
 </script>
 </body>
 </html>
