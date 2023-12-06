@@ -202,9 +202,7 @@ characterBoxes.forEach((character) => {
     character.addEventListener("click", () => {
         character.remove();
         characterBoxes = document.querySelectorAll(".character");
-        generateLetters();
-        evenlyDistributeBoxes(characterBoxes);
-        squishNames();
+        updateCharacters();
     })
 })
 
@@ -260,6 +258,10 @@ screenshot.addEventListener("click", () => {
     options.style.display = "flex";
 })
 
+function updateCharacters() {
 generateLetters();
 evenlyDistributeBoxes(characterBoxes);
 squishNames();
+}
+
+updateCharacters();
