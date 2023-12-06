@@ -17,7 +17,6 @@ html {
 
 .flex-container {
   display: flex;
-  background-color: DodgerBlue;
   width: 100vw;
   height: 100vh;
   flex-direction: column;
@@ -33,11 +32,16 @@ html {
 
 .character {
   display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
   justify-content: space-between;
   background-position: bottom;
   background-repeat: no-repeat;
   overflow: hidden;
-  font-size: 5vw;
+  font-size: 5vmax;
+  background-color: DodgerBlue;
 }
 
 .character-text {
@@ -47,16 +51,7 @@ html {
 }
 
 .character-image {
-    height: 40vh;
-}
-
-.voting > div {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  min-width: 0;
+    height: 50vh;
 }
 
 .options {
