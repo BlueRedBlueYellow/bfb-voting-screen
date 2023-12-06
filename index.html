@@ -361,7 +361,7 @@ html {
     options.style.display = "none";
     let canvasOptions = aspectRatioSetting ? {allowTaint: true, useCORS: true} : 
                                               {allowTaint: true, useCORS: true, windowWidth: 1920, windowHeight: 1080};
-    html2canvas(document.querySelector(".voting"), canvasOptions).then(canvas => {
+    html2canvas(voting, canvasOptions).then(canvas => {
       saveAs(canvas.toDataURL(), 'voting_screen.png');
     });
     options.style.display = "flex";
