@@ -104,3 +104,7 @@ html {
 .brady > .character-image {
     height: 40vh;
 }
+
+.shrink-text-size {
+    font-size: 3.5vw;
+}

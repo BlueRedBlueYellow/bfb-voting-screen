@@ -107,7 +107,7 @@ const characters = {
 };
 
 const voting = document.querySelector(".voting");
-const characterTemplate = document.querySelector(".character");
+const characterTemplate = document.querySelector(".template");
 
 for (character in characters) {
     let newCharacterTemplate = characterTemplate.cloneNode(true);
@@ -213,7 +213,17 @@ function evenlyDistributeBoxes(characters) {
     });
 }
 
-function squishNames() {
+function updateTextSizes() {
+    if (characterBoxes.length > 16) {
+        characterBoxes.forEach((character) => {
+            character.classList.add("shrink-text-size");
+        });
+    } else {
+        characterBoxes.forEach((character) => {
+            character.classList.remove("shrink-text-size");
+        });
+    }
+
     const characterNames = document.querySelectorAll(".name");
     characterNames.forEach((name) => {
         name.style.transform = `scale(1)`;
@@ -260,7 +270,7 @@ screenshot.addEventListener("click", () => {
 function updateCharacters() {
     generateLetters();
     evenlyDistributeBoxes(characterBoxes);
-    squishNames();
+    updateTextSizes();
 }
 
 updateCharacters();
