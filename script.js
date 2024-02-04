@@ -1,109 +1,104 @@
 const characters = {
-    "Denn1s": {
-        "class": "dennis",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1180454397575184515/8-Ball_Pose.webp?ex=657d7ad4&is=656b05d4&hm=85088992867d64a5ec2bea31e6bf1d6acc8236485879d395cab4a7a4602f77cd&=&format=webp&width=587&height=593",
-        "color": "#202020"
+    "Aidan": {
+        "class": "aidan",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203770345295843379/cropped_aidan.png?ex=65d24d7f&is=65bfd87f&hm=c52390d032234adb8d96b53e322ffb0dfb8d16c5a8149b0a6c90b803a90132b1&=&quality=lossless",
+        "color": "#f8f3da"
     },
-    "Mikki": {
-        "class": "mikki",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1180407055660617798/Tpot_renders0019.webp?ex=657d4ebc&is=656ad9bc&hm=92f5c6e573476d4f11f94797e85c69944c05a829321fcbb525195b90caacb290&=&format=webp&width=380&height=503",
-        "color": "#ffffff"
+    "Anabel": {
+        "class": "anabel",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563408679768134/Anabel_-_Dora.png?ex=65d18cc5&is=65bf17c5&hm=67de96f60accbfbede150265d1a0a3ae7a11998156f944069e4d4ce37fe754a1&=&quality=lossless",
+        "color": "#061726"
     },
-    "Keaton": {
-        "class": "keaton",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1180407055891312670/Golf_Ball_Image.webp?ex=657d4ebd&is=656ad9bd&hm=e1955767852484ece509b20ef1d6bf702532adacc6df1688551398dc8f20b2b1&=&format=webp&width=507&height=593",
-        "color": "#feb9f3"
+    "Ari": {
+        "class": "ari",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563408901804042/Ari_-_Price_Tag.png?ex=65d18cc5&is=65bf17c5&hm=6b3c4e458a6a03a7d17e0e697f2eac0a7d045429673e92b5ce9532a864507805&=&quality=lossless",
+        "color": "#df2a2b"
     },
-    "JL": {
-        "class": "jl",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1180407056147161118/Yellowface.webp?ex=657d4ebd&is=656ad9bd&hm=d550d4544c10bd05880f1724a30c0a7a7d900c99e4360299b564a7ec49307760&=&format=webp&width=576&height=593",
-        "color": "#ffff00"
+    "Borto": {
+        "class": "borto",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563409153458187/Borto_-_Basketball.png?ex=65d18cc5&is=65bf17c5&hm=5884de5add3d8332deeb51a47634a0379a7a42e0cf05d825aff2596d6c85ae8f&=&quality=lossless",
+        "color": "#f47a46"
     },
-    "Ren": {
-        "class": "ren",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1180407056839217152/Tpot_renders0031.webp?ex=657d4ebd&is=656ad9bd&hm=17432f71055f3391adc3e517dfc32a0fdeadac68859272f6fcb34422ecd09e65&=&format=webp&width=323&height=465",
-        "color": "lightgreen"
+    "Bread": {
+        "class": "bread",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563409409450015/Bread_-_Bread.png?ex=65d18cc5&is=65bf17c5&hm=b44e3f0717ef808fe0f910edcb232adaa48bc70d46dc9b6c7a70e505d5ae5f75&=&quality=lossless",
+        "color": "#25190d"
     },
-    "Joey": {
-        "class": "joey",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1180454396925050950/Tpot_renders0027.webp?ex=657d7ad4&is=656b05d4&hm=e5c723dff10d43b4be076950b8a808f613f7ace6a73e6ee0ddee451bda5896f9&=&format=webp",
-        "color": "#808080"
+    "Casey": {
+        "class": "casey",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563409652842607/Casey_-_Inkwell.png?ex=65d18cc5&is=65bf17c5&hm=29826505475af4332b83203b9ec2d6214e89e1a7e3bec1a0cf838bd90ac18cc8&=&quality=lossless",
+        "color": "#4d23c2"
     },
-    "Nam": {
-        "class": "nam",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1180454397885546556/Bubblebfb13.webp?ex=657d7ad4&is=656b05d4&hm=4512e62a54ad95839860e0c660b5039cfe2d8187730cd8137d10a46f69178f67&=&format=webp&width=512&height=593",
-        "color": "#76c9e2"
+    "Chim": {
+        "class": "chim",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563410193653770/Chim_-_Bomby.png?ex=65d18cc6&is=65bf17c6&hm=21fcdea46b8c46c21ca39ea69d51801cf64a4bd88434a2ed6a29b940b1cae2cb&=&quality=lossless",
+        "color": "#262626"
     },
-    "Dalt": {
-        "class": "dalt",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181481533702422528/Match_book.webp?ex=6581376c&is=656ec26c&hm=bdfb72dbbf4fc3ec0b64cbcba93cb113b1d6d3a77660243064d919eb8c7f3f0c&=&format=webp&width=156&height=593",
-        "color": "#e69a6f"
+    "Chroma": {
+        "class": "chroma",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563410416074772/Chroma_-_Candle.png?ex=65d18cc6&is=65bf17c6&hm=036cdd059fecb6caeb154e4691fdf89f4b487fc469dcba093da7f9969ab0ae74&=&quality=lossless",
+        "color": "#4d1874"
     },
-    "Ben": {
-        "class": "ben",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181481533945683990/Tpot_renders0040.webp?ex=6581376c&is=656ec26c&hm=aecf179cc90e2a765f5a551c23c2f71ab34333b4e379641fc59909be7fe69ca7&=&format=webp&width=179&height=593",
-        "color": "#394755"
+    "Damion": {
+        "class": "damion",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563410625929259/Damion_-_Mouse.png?ex=65d18cc6&is=65bf17c6&hm=d6f864df2f67dc9ba00daf512543a660754508a52a657e49b3f78f37c59ab1cd&=&quality=lossless",
+        "color": "#162055"
     },
-    "Captain": {
-        "class": "captain",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181481534277029888/Four_intro.webp?ex=6581376c&is=656ec26c&hm=346ca7bc9f0223594d5c858ed961c8d9a794bb7b9a08cd4f8180c33b9e77c87c&=&format=webp&width=560&height=593",
-        "color": "#2357a5"
+    "Dan": {
+        "class": "dan",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563462865981440/Dan_-_Donut.png?ex=65d18cd2&is=65bf17d2&hm=77ef0ce5b0fe36ee92b3934e9764d2f95b881f3de1749d4881a7805464055434&=&quality=lossless",
+        "color": "#f5dfb1"
     },
-    "Jacob": {
-        "class": "jacob",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181481534696472576/Tpot_renders0042.webp?ex=6581376c&is=656ec26c&hm=35b588395d16e5c97bcb61135a5220ca63d2bd75269e79ea17f294978402e54d&=&format=webp",
-        "color": "#eea8ff"
+    "Dimitrius": {
+        "class": "dimitrius",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563409946316900/Celtics_-_Ice_Cube.png?ex=65d18cc6&is=65bf17c6&hm=c5b4b6e5ed0b4ac0458e6e8fc1caa8cf6101d003774c9fecc1731400715b0207&=&quality=lossless",
+        "color": "#6b81aa"
     },
-    "Cora": {
-        "class": "cora",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181506015989092402/350.png?ex=65814e39&is=656ed939&hm=63e32b26cb523ef66e6010fcd844adaa147b342b02cf6c6bbe6d33887d11029e&=&format=webp&quality=lossless",
-        "color": "#221918"
+    "Dom": {
+        "class": "dom",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563463109115944/Dom_-_Bowling_Ball.png?ex=65d18cd2&is=65bf17d2&hm=1700ae5753b22ab29a0565f5a7fc6c78f83c5a8841214fa42bcfaf239ca51479&=&quality=lossless",
+        "color": "#03182d"
     },
-    "Alex": {
-        "class": "alex",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181506082678517791/350.png?ex=65814e49&is=656ed949&hm=95657b9c4427882fea3a02a31bb0935476d30b9932c6555ef4950da51376277d&=&format=webp&quality=lossless",
-        "color": "#324f32"
+    "Drey": {
+        "class": "drey",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563463335485470/Drey_-_Amethyst.png?ex=65d18cd2&is=65bf17d2&hm=d0a794dc34e9cd5238a286dd8b8fc78709da947b43adcb829c9bb3b502ba52c3&=&quality=lossless",
+        "color": "#9046b7"
     },
-    "Mandos": {
-        "class": "mandos",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181506274848935986/335.png?ex=65814e77&is=656ed977&hm=aa6c5b6fb41758cdf40e1c2782e1248103e589f603e7bc3748a9b38f25ae5209&=&format=webp&quality=lossless",
-        "color": "#ff8df5"
+    "Eris": {
+        "class": "eris",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563463566168095/Eris_-_Firey.png?ex=65d18cd2&is=65bf17d2&hm=e9fe0d016f98d42df181d2ae78a2971c649de1debdb39c45a8d2fa3561e8cde7&=&quality=lossless",
+        "color": "#ff0167"
     },
-    "Kat": {
-        "class": "kat",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181506333590163456/latest.png?ex=65814e85&is=656ed985&hm=87a41b02d0e62f793313c111545cd25a16be7e1ea651e1e5f2022a6bd3939047&=&format=webp&quality=lossless&width=385&height=593",
-        "color": "#3c1e39"
+    "Gabe": {
+        "class": "gabe",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563463797112832/Gabe_-_Drum.png?ex=65d18cd2&is=65bf17d2&hm=f28b277c40816e3d764503eb13479a1f2b37d06b9fb2947915f8a9ef3f7a14dc&=&quality=lossless",
+        "color": "#00024e"
     },
-    "Juls": {
-        "class": "juls",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181506416394113055/latest.png?ex=65814e98&is=656ed998&hm=6648c74e637f003b8836547fcdba0041d6b71085f0b7523b9d1eb818e6ad243c&=&format=webp&quality=lossless&width=292&height=593",
-        "color": "#bc70fb"
+    "Jasper": {
+        "class": "jasper",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563464103305257/Jasper_-_Nickel.png?ex=65d18cd2&is=65bf17d2&hm=13f562e7cee52016fff7178957e99d31554088e435dc0b38023dbade6123af63&=&quality=lossless",
+        "color": "#7c7e7e"
     },
-    "Tye": {
-        "class": "tye",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181506471633109103/latest.png?ex=65814ea6&is=656ed9a6&hm=38b415c9f4d307ea76ba0f788bf0d05f88b7252b21cbdf3bc718fecdf1a220ab&=&format=webp&quality=lossless",
-        "color": "#8e3148"
+    "Jayson": {
+        "class": "jayson",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563464556019732/Jayson_-_Coiny.png?ex=65d18cd3&is=65bf17d3&hm=f1c1e1d13a6fcfbd7c3a897bffd6b56c9ef5b99ca72af0791ea835a686d4e1d0&=&quality=lossless",
+        "color": "#ffad03"
     },
-    "Adrian": {
-        "class": "adrian",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181506671927902238/latest.png?ex=65814ed5&is=656ed9d5&hm=ae3d12acc6277dd872843af08a7ad04a773d57edca70c3cf69875e32853df775&=&format=webp&quality=lossless&width=124&height=593",
-        "color": "#303030"
+    "Mini": {
+        "class": "mini",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563464824594472/Mini_-_Dice.png?ex=65d18cd3&is=65bf17d3&hm=5e38eba886fee05833e382b8cab0ea5a7ffb15c42ddae03955f16f9356788dc5&=&quality=lossless",
+        "color": "#d32033"
     },
-    "Shenicicle": {
-        "class": "shen",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181506765179846656/latest.png?ex=65814eec&is=656ed9ec&hm=06bd8d0908f03d2f7605112828fc2801de52fe5d171e397dd683d29c3ec98082&=&format=webp&quality=lossless&width=148&height=591",
-        "color": "#ef9738"
+    "Oak": {
+        "class": "oak",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563465088962580/Oak_-_VBuckCoin.png?ex=65d18cd3&is=65bf17d3&hm=51af97478e52c51f4d97e38d6f98e1ed86a86dcb435c9a312ac509ad8302f9be&=&quality=lossless",
+        "color": "#7fa1de"
     },
-    "Jadyn": {
-        "class": "jadyn",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181507165245149225/latest.png?ex=65814f4b&is=656eda4b&hm=ace40c25100f7498a3716d36005c39693bbf73fb1a63bde025fc51c4b350709d&=&format=webp&quality=lossless",
-        "color": "#214774"
-    },
-    "Brady": {
-        "class": "brady",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1181506820167184455/1000.png?ex=65814ef9&is=656ed9f9&hm=54a93ff75492217c1faf37ada73377121f05e355c25aefa3c2b300169b926194&=&format=webp&quality=lossless&width=911&height=593",
-        "color": "#fe2336"
-    },
+    "Wyatt": {
+        "class": "wyatt",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563465378234419/Wyatt_-_8Ball.png?ex=65d18cd3&is=65bf17d3&hm=d3c1783b5990b48c420f9b1ed2328db06e7a9ca8f3b14305cd194f2eaa38db04&=&quality=lossless",
+        "color": "#000000"
+    }
 };
 
 const voting = document.querySelector(".voting");

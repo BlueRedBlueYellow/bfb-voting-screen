@@ -97,26 +97,35 @@ html {
     margin: 1vh;
 }
 
-.joey > .character-image {
-    height: 30vh;
-}
-
-.keaton > .character-image {
-    height: 45vh;
-}
-
-.tye > .character-image {
-    height: 45vh;
-}
-
-.jacob > .character-image {
-    height: 40vh;
-}
-
-.brady > .character-image {
-    height: 40vh;
-}
-
 .shrink-text-size {
     font-size: 3.5vw;
+}
+
+.casey > .character-image, .dom > .character-image {
+    height: 45vh;
+}
+
+.mini > .character-image {
+    height: 43vh;
+}
+
+.dimitrius > .character-image, .wyatt > .character-image {
+    height: 44vh;
+}
+
+.jayson > .character-image, .jasper > .character-image, .gabe > .character-image {
+    height: 40vh;
+}
+
+.oak > .character-image {
+    height: 38vh;
+}
+
+.ari > .character-image {
+    height: 25vh;
+    padding-right: 25%;
+}
+
+.chim > .character-image {
+    padding-left: 40%;
 }
