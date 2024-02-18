@@ -109,7 +109,11 @@ html {
     height: 43vh;
 }
 
-.dimitrius > .character-image, .wyatt > .character-image {
+.dimitrius > .character-image {
+    height: 20vh;
+}
+
+.wyatt > .character-image {
     height: 44vh;
 }
 

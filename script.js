@@ -51,7 +51,7 @@ const characters = {
     },
     "Dimitrius": {
         "class": "dimitrius",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563409946316900/Celtics_-_Ice_Cube.png?ex=65d18cc6&is=65bf17c6&hm=c5b4b6e5ed0b4ac0458e6e8fc1caa8cf6101d003774c9fecc1731400715b0207&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1161361808393785563/1208196366346756196/image.png?ex=65e2678c&is=65cff28c&hm=d34ee96d7f48894282c1b5daae5de3d4e75a163392678c4a2537e968a040e036&=&quality=lossless",
         "color": "#6b81aa"
     },
     "Dom": {
