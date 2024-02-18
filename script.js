@@ -31,8 +31,8 @@ const characters = {
     },
     "Chim": {
         "class": "chim",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563410193653770/Chim_-_Bomby.png?ex=65d18cc6&is=65bf17c6&hm=21fcdea46b8c46c21ca39ea69d51801cf64a4bd88434a2ed6a29b940b1cae2cb&=&quality=lossless",
-        "color": "#262626"
+        "image": "https://media.discordapp.net/attachments/929525276415770684/1208589198144311357/bomby_purple.png?ex=65e3d567&is=65d16067&hm=ade73ad1c4dc9b6c9e0ad20f166932636b931d9db171a293d332c82d7637e003&=&quality=lossless",
+        "color": "#4e3a78"
     },
     "Chroma": {
         "class": "chroma",
