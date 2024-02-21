@@ -124,8 +124,5 @@ html {
 .ari > .character-image {
     height: 25vh;
     padding-right: 25%;
-}
-
-.chim > .character-image {
-    padding-left: 40%;
+    padding-bottom: 1%;
 }
