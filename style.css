@@ -117,10 +117,6 @@ html {
     height: 44vh;
 }
 
-.jayson > .character-image, .jasper > .character-image, .gabe > .character-image {
-    height: 40vh;
-}
-
 .oak > .character-image {
     height: 38vh;
 }
