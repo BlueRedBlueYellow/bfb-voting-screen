@@ -6,42 +6,42 @@ const characters = {
     },
     "Anabel": {
         "class": "anabel",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563408679768134/Anabel_-_Dora.png?ex=65d18cc5&is=65bf17c5&hm=67de96f60accbfbede150265d1a0a3ae7a11998156f944069e4d4ce37fe754a1&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658820708663296/bAEU2rS.png?ex=65e7b991&is=65d54491&hm=bb1964ff0b7453e42645b3109abf94035caee495a4b39cec960b3ca6dd7d23f3&=&quality=lossless",
         "color": "#061726"
     },
     "Ari": {
         "class": "ari",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563408901804042/Ari_-_Price_Tag.png?ex=65d18cc5&is=65bf17c5&hm=6b3c4e458a6a03a7d17e0e697f2eac0a7d045429673e92b5ce9532a864507805&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209660257631084624/bkMHnf2q_o.png?ex=65e7bae7&is=65d545e7&hm=ca5a0efe40490f3e8a50839f50aca87170653ab03cb3b6113d2a86bfd5a657b5&=&quality=lossless",
         "color": "#df2a2b"
     },
     "Borto": {
         "class": "borto",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563409153458187/Borto_-_Basketball.png?ex=65d18cc5&is=65bf17c5&hm=5884de5add3d8332deeb51a47634a0379a7a42e0cf05d825aff2596d6c85ae8f&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658820985360464/9F1bkWs.png?ex=65e7b991&is=65d54491&hm=5ee29e784b494699cb55681f80b9c942ceb667ef4b2b287135c8cd57e92b6660&=&quality=lossless",
         "color": "#f47a46"
     },
     "Bread": {
         "class": "bread",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563409409450015/Bread_-_Bread.png?ex=65d18cc5&is=65bf17c5&hm=b44e3f0717ef808fe0f910edcb232adaa48bc70d46dc9b6c7a70e505d5ae5f75&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658821254057994/eL2LNk3.png?ex=65e7b991&is=65d54491&hm=b0167ace02fd3755ce8f34b546ff6d66e6544d55eb19ea04fa7077cbcb7afc63&=&quality=lossless",
         "color": "#25190d"
     },
     "Casey": {
         "class": "casey",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563409652842607/Casey_-_Inkwell.png?ex=65d18cc5&is=65bf17c5&hm=29826505475af4332b83203b9ec2d6214e89e1a7e3bec1a0cf838bd90ac18cc8&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658821513838612/PDdpEL4.png?ex=65e7b991&is=65d54491&hm=f975221a0559efd40c650a93ef5dd4dd22da771f9a596ba095f3ab367ac2ff7e&=&quality=lossless",
         "color": "#4d23c2"
     },
     "Chim": {
         "class": "chim",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1208589198144311357/bomby_purple.png?ex=65e3d567&is=65d16067&hm=ade73ad1c4dc9b6c9e0ad20f166932636b931d9db171a293d332c82d7637e003&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658822000386069/aGvJyzp.png?ex=65e7b991&is=65d54491&hm=05c9483d2321501d23ec644b5f991d78eb6cad732acd1f29f6c3d0d0db8d28eb&=&quality=lossless",
         "color": "#4e3a78"
     },
     "Chroma": {
         "class": "chroma",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563410416074772/Chroma_-_Candle.png?ex=65d18cc6&is=65bf17c6&hm=036cdd059fecb6caeb154e4691fdf89f4b487fc469dcba093da7f9969ab0ae74&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658822373810247/tD8igbV.png?ex=65e7b991&is=65d54491&hm=6cf6d238308d7fbe44d506005c3edf2f808943647da9282bc15786dc8b81ec2d&=&quality=lossless",
         "color": "#4d1874"
     },
     "Damion": {
         "class": "damion",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563410625929259/Damion_-_Mouse.png?ex=65d18cc6&is=65bf17c6&hm=d6f864df2f67dc9ba00daf512543a660754508a52a657e49b3f78f37c59ab1cd&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658822650630174/AHWHAcw.png?ex=65e7b991&is=65d54491&hm=9678cd51e2045e83a735566eed25059a16c63d8b1d1dc6dbf79e92bb9b8193cb&=&quality=lossless",
         "color": "#162055"
     },
     "Dan": {
@@ -51,22 +51,22 @@ const characters = {
     },
     "Dimitrius": {
         "class": "dimitrius",
-        "image": "https://media.discordapp.net/attachments/1161361808393785563/1208196366346756196/image.png?ex=65e2678c&is=65cff28c&hm=d34ee96d7f48894282c1b5daae5de3d4e75a163392678c4a2537e968a040e036&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658823011475456/eTgENvm.png?ex=65e7b991&is=65d54491&hm=f6a1d03e7b26cdb1d3469bbb71ed0e697b0bb7fac32010fcac51d640019ced11&=&quality=lossless",
         "color": "#6b81aa"
     },
     "Dom": {
         "class": "dom",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563463109115944/Dom_-_Bowling_Ball.png?ex=65d18cd2&is=65bf17d2&hm=1700ae5753b22ab29a0565f5a7fc6c78f83c5a8841214fa42bcfaf239ca51479&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658823242154064/7J9fYDZ.png?ex=65e7b991&is=65d54491&hm=0ec2c6f9dd8ab4378af943b1de38628e75f7239e5f15af40fc07cee05e728242&=&quality=lossless",
         "color": "#03182d"
     },
     "Drey": {
         "class": "drey",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563463335485470/Drey_-_Amethyst.png?ex=65d18cd2&is=65bf17d2&hm=d0a794dc34e9cd5238a286dd8b8fc78709da947b43adcb829c9bb3b502ba52c3&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658853038489641/BNk1QPX.png?ex=65e7b998&is=65d54498&hm=5bd92cb240d8f471933e296f3aa3a1beb60a8f5effa2f1b7ec8307a987c3c1b1&=&quality=lossless",
         "color": "#9046b7"
     },
     "Eris": {
         "class": "eris",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563463566168095/Eris_-_Firey.png?ex=65d18cd2&is=65bf17d2&hm=e9fe0d016f98d42df181d2ae78a2971c649de1debdb39c45a8d2fa3561e8cde7&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658853348872252/ZwsdoQ9.png?ex=65e7b999&is=65d54499&hm=651eedebbd8b13a7bb7d7639be099b6b3b9a5296d2872c2328c17f55bcfcca90&=&quality=lossless",
         "color": "#ff0167"
     },
     "Gabe": {
@@ -91,7 +91,7 @@ const characters = {
     },
     "Oak": {
         "class": "oak",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1203563465088962580/Oak_-_VBuckCoin.png?ex=65d18cd3&is=65bf17d3&hm=51af97478e52c51f4d97e38d6f98e1ed86a86dcb435c9a312ac509ad8302f9be&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658853629632572/Wpi9IAh.png?ex=65e7b999&is=65d54499&hm=584238952941dc7748d79e5cb967f3e53997227989546410224f16c22abf67f6&=&quality=lossless",
         "color": "#7fa1de"
     },
     "Wyatt": {
