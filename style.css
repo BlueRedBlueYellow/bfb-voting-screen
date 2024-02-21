@@ -126,3 +126,7 @@ html {
     padding-right: 25%;
     padding-bottom: 1%;
 }
+
+.chim > .character-image {
+    padding-left: 5%;
+}
