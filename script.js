@@ -1,7 +1,7 @@
 const characters = {
     "Anabel": {
         "class": "anabel",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658820708663296/bAEU2rS.png?ex=65e7b991&is=65d54491&hm=bb1964ff0b7453e42645b3109abf94035caee495a4b39cec960b3ca6dd7d23f3&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/929525276415770684/1210334252013592646/anabel2.png?ex=65ea2e9c&is=65d7b99c&hm=a5eb99928445b77be773eba0e2c56eb60fc2d6a16f4f5faba3d404c92b3abd44&=&quality=lossless",
         "color": "#061726"
     },
     "Ari": {
