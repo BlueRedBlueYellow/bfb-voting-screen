@@ -1,12 +1,12 @@
 const characters = {
     "Anabel": {
         "class": "anabel",
-        "image": "https://media.discordapp.net/attachments/929525276415770684/1210334252013592646/anabel2.png?ex=65ea2e9c&is=65d7b99c&hm=a5eb99928445b77be773eba0e2c56eb60fc2d6a16f4f5faba3d404c92b3abd44&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1161361808393785563/1211094650316787762/anabelyoyle.png?ex=65ecf2c9&is=65da7dc9&hm=d0d6ee8ba2761b37c2d43930640e42d2a3981b69a21d1687b4d7178584b6cccd&=&quality=lossless",
         "color": "#061726"
     },
     "Ari": {
         "class": "ari",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209660257631084624/bkMHnf2q_o.png?ex=65e7bae7&is=65d545e7&hm=ca5a0efe40490f3e8a50839f50aca87170653ab03cb3b6113d2a86bfd5a657b5&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1161361808393785563/1211094649620664330/ariyoyle.png?ex=65ecf2c9&is=65da7dc9&hm=d220ae972e484bf63f1b8a4cda9cc88e30a9f5f263bc036e9014e95679b3035a&=&quality=lossless",
         "color": "#df2a2b"
     },
     "Borto": {
@@ -41,7 +41,7 @@ const characters = {
     },
     "Dimitrius": {
         "class": "dimitrius",
-        "image": "https://media.discordapp.net/attachments/1202142151102959626/1209658823011475456/eTgENvm.png?ex=65e7b991&is=65d54491&hm=f6a1d03e7b26cdb1d3469bbb71ed0e697b0bb7fac32010fcac51d640019ced11&=&quality=lossless",
+        "image": "https://media.discordapp.net/attachments/1161361808393785563/1211094649998147714/dimiyoyle.png?ex=65ecf2c9&is=65da7dc9&hm=b1db724f00f8aab8566b0da4830bd887544072214f1be703be73f9b7d19fa455&=&quality=lossless",
         "color": "#6b81aa"
     },
     "Dom": {
